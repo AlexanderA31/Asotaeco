@@ -1,0 +1,53 @@
+/* HEADER */
+.menu-desktop {
+    text-align: center;
+}
+
+.main-menu {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu-link {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #333;
+    transition: background-color 0.3s ease;
+}
+
+.menu-link:hover {
+    background-color: #f0f0f0;
+}
+
+.menu-item-with-submenu {
+    position: relative;
+}
+
+.sub-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.menu-item-with-submenu:hover .sub-menu {
+    display: block;
+}
+
+.sub-menu li {
+    padding: 10px 20px;
+}
+
+.sub-menu li a {
+    color: #333;
+    text-decoration: none;
+}
+
+.sub-menu li a:hover {
+    background-color: #f0f0f0;
+}
+

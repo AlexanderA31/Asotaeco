@@ -1,0 +1,16 @@
+.shop_section .box
+{
+  background-color: #eeeeee;
+  position: relative;
+  padding: 10px;
+  margin-top: 25px;
+}
+*, ::before, ::after
+{
+  box-sizing: border-box;
+}
+body
+{
+  font-family: "poppins", sans-serif;
+  color: #101010;
+}

@@ -1,0 +1,44 @@
+browser-sync start --proxy "localhost:80" --files "**/*"
+
+# Tareas Pendientes
+[X] - Tengo productos en el carrito de compras y el carrito sigue en 0 :v
+[X] - cuando se compra que de limpie el carrito 
+[X] - si no inicia sección que salga una alerta y no me redirija de nuevo al inicio 
+[X] - La de favoritos no funciona no funciona 
+[X] - El número de compras también se actualice cuando se agrega al carrito en el icono 
+[X] - Quitar el numero de elementos a mostrar del datatable 
+[X] - en el admin hay un apartado que dice clientes alado de usuarios que no funciona
+[X] - Footer cliente
+[X] - Imágenes de producto detalle
+[X] - El nombre de usuario no se hace responsive y eso de las compras de los usuarios aún no funciona 
+[X] - Eliminar librería de animación
+[X] - Registro falta el teléfono
+[X] - Campos obligatorios en el registro
+[X] - arreglar lo de categoría 
+[X] - El buscador no filtra
+[X] - Modal para el shoping cart
+[X] - Referencia en el shoping cart
+[X] - Restablecer contraseña
+[X] - Imagenes Productos Agregar 
+[] - Enviar Correos de pedidos
+[] - Correos de ventas
+[] - Reporte de compras
+[] - Reporte de Ventas
+[] - Cancelar Ventas
+[] - Cancelar compras
+[] - Colocar fondo de las paginas 90a586 
+[] - Home del Admin 
+[X] - los títulos 
+[X] - el botón de favoritos no vale 
+[X] - cambiar el icono 
+[X] - el tipo de letra a Ariel en el footer también
+[X] - en product details, el footer sale mal 
+[X] - verificar si funciona eso de poner el código de envío de Servientrega para que los clientes visualicen
+
+Administrador
+[X] - Cambiar en compras comprar publicar
+[X] - Alertas cambiar la logica para seleccionar con un check
+[X] - Estado en ventas en vez de entregado enviado 
+[X] - Ventana flotante para productos en ventas
+[X] - Quitar boton de eliminar ventas
+[X] - Editar producto

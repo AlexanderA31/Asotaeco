@@ -1,0 +1,6 @@
+body::-webkit-scrollbar {
+    width: 15px;
+}
+body::-webkit-scrollbar-thunb{
+    background: rgb(255, 0, 0); 
+}

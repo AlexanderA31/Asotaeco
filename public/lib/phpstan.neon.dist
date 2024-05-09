@@ -1,0 +1,22 @@
+includes:
+    - phar://phpstan.phar/conf/bleedingEdge.neon
+    - phpstan-baseline.neon
+
+parameters:
+    level: 6
+    paths:
+        - .
+    excludePaths:
+        - vendor
+
+    ignoreErrors:
+        -
+            message: '~^.+$~'
+            path: HtmLawed/Htmlawed.php
+
+        # TODO
+        - '~Property .+ has no type specified~'
+        - '~has parameter \$\w+ with no type specified~'
+        - '~has no return type specified~'
+        - '~return type has no value type specified~'
+        - '~no value type specified in iterable type array~'

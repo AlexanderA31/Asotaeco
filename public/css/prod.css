@@ -1,0 +1,49 @@
+.centradorri {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 80px; /* Ajusta el espacio entre los productos según tus preferencias */
+    justify-content: center;
+    padding: 20px; /* Ajusta el espaciado interno del contenedor según tus preferencias */
+    max-width: 1200px; /* Establece un ancho máximo */
+    margin: 0 auto; /* Centra el contenedor */
+}
+
+.producto {
+    width: 100%; /* Haz que cada producto ocupe el 100% del ancho del contenedor */
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.producto:hover {
+    transform: scale(1.05);
+}
+
+.producto img {
+    width: 100%;
+    height: 300px; /* Ajusta la altura según tu preferencia */
+    object-fit: cover;
+    border-bottom: 1px solid #ddd;
+}
+
+.producto-info {
+    padding: 10px;
+}
+
+.producto-info p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.producto-info .precio {
+    color: #00b894; /* Color verde para el precio */
+    font-weight: bold;
+}
+
+.producto-info .existencia {
+    color: #0984e3; /* Color azul para la existencia */
+    font-weight: bold;
+}
